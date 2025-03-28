@@ -4,10 +4,10 @@ import Menu from '../components/layout/Menu';
 import Content from '../components/layout/Content'
 import About from './examples/About';
 import Home from './examples/Home';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App = () => (
   <div className='App'>
-    <h1>App</h1>
         <Menu/>
         <Content/>
         <About/>

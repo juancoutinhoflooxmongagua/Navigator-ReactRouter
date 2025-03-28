@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => (
     <div className='About'>
-        Componente About
+        <p>O nosso sistema é assim</p>
     </div>
 )
 

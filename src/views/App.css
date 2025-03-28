@@ -1,3 +1,5 @@
 .App {
-    color: yellowgreen;
+    display: flex;
+    height: 100vh;
+
 }

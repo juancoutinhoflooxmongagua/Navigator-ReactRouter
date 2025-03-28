@@ -4,6 +4,7 @@ import Menu from '../components/layout/Menu';
 import Content from '../components/layout/Content'
 import About from './examples/About';
 import Home from './examples/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App = () => (

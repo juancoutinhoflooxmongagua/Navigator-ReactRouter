@@ -10,7 +10,7 @@ const App = () => (
       {/* Navbar */}
       <header className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Meu App</a>
+          <a className="navbar-brand" href="#">Navigator</a>
         </div>
       </header>
 

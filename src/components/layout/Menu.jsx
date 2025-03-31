@@ -10,6 +10,10 @@ const Menu = () => (
             <li className="nav-item">
                 <Link to="/about" className="nav-link text-white">ℹ️ Sobre</Link>
             </li>
+
+            <li className="nav-item">
+                <Link to="/param/123" className="nav-link text-white">ℹ️ Param</Link>
+            </li>
         </ul>
     </nav>
 );

@@ -1,19 +1,15 @@
 import React from 'react';
-import './App.css'
+import { BrowserRouter } from 'react-router-dom';
 import Menu from '../components/layout/Menu';
-import Content from '../components/layout/Content'
-import About from './examples/About';
-import Home from './examples/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import Content from '../components/layout/Content';
 
 const App = () => (
-  <div className='App'>
-        <Menu/>
-        <Content/>
-        <About/>
-        <Home/>
-  </div>
+    <BrowserRouter>
+        <div>
+            <Menu />
+            <Content />
+        </div>
+    </BrowserRouter>
 );
 
 export default App;

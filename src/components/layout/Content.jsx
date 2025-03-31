@@ -7,7 +7,7 @@ import Param from '../../views/examples/Param';
 const Content = () => (
     <main>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/param/:id" element={<Param />} />
         </Routes>
